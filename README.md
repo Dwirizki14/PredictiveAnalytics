@@ -122,7 +122,7 @@ Hal ini sesuai dengan intuisi: usia, indeks massa tubuh, dan kebiasaan merokok s
 
 ---
 
-## Contoh Hasil Prediksi
+## Hasil Prediksi
 
 | Index | y_true (Biaya Aktual) | Prediksi KNN | Prediksi Random Forest | Prediksi Gradient Boosting |
 |-------|------------------------|--------------|-------------------------|-----------------------------|
