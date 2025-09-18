@@ -1,18 +1,18 @@
 # PredictiveAnalytics
 
-# 🏥 Prediksi Biaya Asuransi dengan Machine Learning
+# Prediksi Biaya Asuransi dengan Machine Learning
 
-## 📌 Domain Proyek
+## Domain Proyek
 Biaya asuransi medis sangat dipengaruhi oleh faktor-faktor seperti usia, indeks massa tubuh (BMI), jumlah anak, jenis kelamin, status perokok, dan wilayah tempat tinggal. Penentuan biaya asuransi yang akurat penting bagi perusahaan asuransi untuk mengurangi risiko kerugian sekaligus memberikan premi yang adil bagi pelanggan.  
 
 Dataset yang digunakan dalam proyek ini adalah **Medical Insurance Cost Dataset** dari Kaggle:  
-👉 [Medical Insurance Cost Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+[Medical Insurance Cost Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 Dataset ini berisi **1338 sampel** data pelanggan dengan variabel-variabel seperti `age`, `sex`, `bmi`, `children`, `smoker`, `region`, dan `charges` (biaya asuransi).
 
 ---
 
-## 🎯 Business Understanding
+## Business Understanding
 
 ### Problem Statements
 1. Bagaimana memprediksi biaya asuransi pelanggan secara akurat?  
@@ -33,7 +33,7 @@ Dataset ini berisi **1338 sampel** data pelanggan dengan variabel-variabel seper
 
 ---
 
-## 📊 Data Understanding
+## Data Understanding
 
 ### Variabel pada Dataset
 - **age**: Usia pelanggan (numerik)  
@@ -51,7 +51,7 @@ Dataset ini berisi **1338 sampel** data pelanggan dengan variabel-variabel seper
 
 ---
 
-## 🛠️ Data Preparation
+## Data Preparation
 
 Langkah-langkah persiapan data:
 1. **Penanganan Outlier**  
@@ -68,7 +68,7 @@ Langkah-langkah persiapan data:
 
 ---
 
-## 🤖 Modeling
+## Modeling
 
 ### Algoritma yang Digunakan
 1. **K-Nearest Neighbors (KNN)**  
@@ -91,7 +91,7 @@ Langkah-langkah persiapan data:
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 ### Metrik Evaluasi
 - **MAE (Mean Absolute Error)**: rata-rata selisih absolut antara prediksi dan aktual.  
@@ -107,11 +107,11 @@ Langkah-langkah persiapan data:
 | **Random Forest**| 2573.10 | 20,426,721 | 4519.59 | 0.573 |
 | **Gradient Boosting** | 2370.90 | 17,879,299 | 4228.39 | 0.626 |
 
-➡️ **Model terbaik adalah Gradient Boosting** karena memiliki **RMSE terendah (4228.39)** dan **R² tertinggi (0.626)**.
+ **Model terbaik adalah Gradient Boosting** karena memiliki **RMSE terendah (4228.39)** dan **R² tertinggi (0.626)**.
 
 ---
 
-## 🔍 Feature Importance
+## Feature Importance
 
 Dari Random Forest & Gradient Boosting, fitur yang paling berpengaruh adalah:
 1. **age**  
@@ -122,7 +122,7 @@ Hal ini sesuai dengan intuisi: usia, indeks massa tubuh, dan kebiasaan merokok s
 
 ---
 
-## 📊 Contoh Hasil Prediksi
+## Contoh Hasil Prediksi
 
 | Index | y_true (Biaya Aktual) | Prediksi KNN | Prediksi Random Forest | Prediksi Gradient Boosting |
 |-------|------------------------|--------------|-------------------------|-----------------------------|
@@ -134,7 +134,7 @@ Hal ini sesuai dengan intuisi: usia, indeks massa tubuh, dan kebiasaan merokok s
 
 ---
 
-## ✅ Kesimpulan
+## Kesimpulan
 
 1. Proyek ini berhasil menjawab kedua problem statement:
    - Prediksi biaya asuransi dapat dilakukan dengan model Gradient Boosting sebagai model terbaik.  
@@ -148,7 +148,7 @@ Hal ini sesuai dengan intuisi: usia, indeks massa tubuh, dan kebiasaan merokok s
 
 ---
 
-## 📚 Referensi
+## Referensi
 - Dataset: [Medical Insurance Cost Dataset - Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance)  
 - Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning*.  
 - Géron, A. (2019). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*.  
